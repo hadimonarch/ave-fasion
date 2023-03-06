@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.local-banner{
+    background: url("../assets/task/images/7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    position: relative;
+    min-height:50vh;
+}
+.overlay-local{
+    height:50vh;
+    width:100%;
+    position: absolute;
+    left:0;
+    top:0;
+    background-color: #010101;
+    opacity: 0.5;
+}
+.local-ban-content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.local-ban-content>h1{
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+@media screen and (max-width:400px){
+    .local-ban-content>h1{
+        font-size: 32px;
+    }
+    .local-ban-content>h2{
+        font-size: 22px;
+    }
+    .local-boxes-row{
+        text-align: left;
+    }
+}
+
+/* local section boxes  */
+.local-boxes>h4{
+color:#555;
+font-size: 20px;
+padding-bottom: 10px;
+}
+.local-boxes>h6{
+    color:#555;
+    font-size: 15px;
+}
+.local-boxes>p{
+    color:#888;
+    text-align: justify;
+    font-size: 13px;
+    line-height: 14px;
+    padding-bottom: 10px;
+}
+.local-boxes>a{
+    color:black;
+    padding:10px 20px;
+    text-decoration: none;
+    border:1px solid black;
+}
+.local-box>a{
+    border:none;
+    color:#fefefe;
+    background-color: #00C8C8;
+
+}
+
+
+/* map and address */
+.local-map-content{
+    padding:20px 30px;
+}
+.local-map-content>h5{
+    color:#555;
+    font-size: 12px;
+    font-weight: 700;
+}
+.local-map-content>h6{
+    color:#999;
+    font-size: 7px;
+    font-weight: bold;
+}
+.local-map-content>p{
+    font-size: 10px;
+    color:#999;
+    font-weight: 600;
+    line-height:10px;
+}
+.local-map-content>a{
+    color:#555;
+    font-size: 12px;
+}
+.map-icons{
+    color:#555;
+    padding:20px 0px;
+    /* padding:20px 30px; */
+    /* margin-left:30px; */
+    /* margin:0 auto; */
+}
+.map-icons>i{
+    margin-left:12px;
+}
+.footer-col>h5{
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer-col>p{
+    font-size: 13px;
+}
+
+/* header ====================================== */
+  /* navigation  */
+  .navbar-nav>li>a{
+    color:#000;
+    font-weight: 700;
+    font-size: 12px;
+    }
+    a:active{
+        color:#00c8c8;
+    }
+    
+    #menu-search{
+        z-index: 9;
+        position: relative;
+        right:15px;
+    }
+    #search-box{
+        border:1px solid #fefede;
+        border-radius: none;
+        position: relative;
+        left:20px;
+    
+    }
+    .hero-section{
+        height: 90vh;
+        background-color:#F8F8F8;
+    }
+    body{
+        /* background-color: brown; */
+    }
+    .avanue-logo{
+        color:black;
+        cursor:pointer;
+        letter-spacing: 2px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .hero-banner{
+        background:url('../assets/task/images/photo.png') ;
+        height:80.5vh;
+        background-size: cover;
+    }
+    
+    
+    
+    .home-btn{
+        text-align:center;
+        color:#555;
+        border:1px solid #555;
+        padding:10px 20px;
+        font-weight: 600;
+        position:absolute;
+        bottom:50px;    
+        transition:0.4s;
+    }
+    .home-btn:hover{
+        background-color: #00C8C8;
+        color:white;
+        text-decoration: none;
+        border:2px groove white;
+        transform: translateY(-10px);
+        box-shadow: 1px 1px 0px grey;
+    }
+    
+    
+    .ave-heading{
+        font-size: 180px;
+        letter-spacing: 40px;
+        position: absolute;
+        top:200px;
+        left:200px;
+        color:#555;
+        z-index: 99;
+    }
+    
+    
+    
+    
+    
+    .footer-col>h5{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .footer-col>p{
+        font-size: 13px;
+    }
+      
+    /* media query ------------------- */
+    @media screen and (max-width:400px) {
+        .text-box-card>p{
+            font-size: 12px;
+            text-align: center;
+            /* font-weight: 500; */
+            color:#555;
+            line-height:15px;
+        }
+        .text-box-card>h4{
+            text-align: center;
+            font-weight: 800;
+            color:#555;
+            letter-spacing:5px;
+            margin-top:20px;
+            margin-bottom: -8px;
+        }
+        .home-btn{
+            display: none;
+        }
+        .text-box-card>h5{
+            text-align: center;
+            font-weight: 400;
+            color:#555;
+            font-size: 28px;
+        }
+        .text-box-card>a{
+            padding:5px 02px;
+            border:1px solid #029090;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+        }
+        .first-card>img{
+            /* height: 10px; */
+            display: block !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            width: 50% !important;
+        }
+        .footer{
+            padding:0px;
+        }
+    
+        .footer-col>h5{
+            font-size:12px;
+            font-weight: 700;
+            text-align: left;
+            color:#555;
+        }
+        .footer-col>p{
+            font-size: 12px;
+            color:#555;
+            font-weight: 450;
+            line-height: 7px;
+        }
+        .feature-list>ul>li{
+            /* display: none; */
+            margin:10px 10px;
+            font-size: 10px;
+            color:#999;
+            font-weight: 700;
+        }
+        .footer-box{
+            display: none;
+        }
+        .feature-list>ul>li{
+            /* display: none; */
+            margin:0px 5px;
+            color:black;
+            text-align: center;
+            font-size: 6px;
+            /* color:#999; */
+            /* font-weight: 300; */
+        }
+        #menu-search{
+            display: none;
+        }
+        #search-box{
+            left:0;
+        }
+
+        .bi-menu-button-wide-fill{
+            position:absolute;
+            top:20px;
+            right:20px;
+        }
+    }
